@@ -1,0 +1,10 @@
+{
+"manifest_version": 2,
+"name": "Greetings!",
+"description": "Greets the user in accordance with the time of the day!",
+"version": "1.0",
+"author": "Deepak Yadav",
+"browser_action": {"default_icon": "Welcome.png","default_popup": "window.html","icons": "Welcome.png"},
+"chrome_url_overrides" : {"newtab": "newtab.html"},
+"permissions": ["activeTab"]
+}
